@@ -1,4 +1,4 @@
-# cocoaheads-repeating-meeting
+# Cocoaheads Repeating Meeting
 
 This script allows the user to add regularly scheduled CocoaHeads meetings to cocoaheads.org in bulk. It assumes that the meeting occurs monthly on (for example) the second Thursday of every month. The day and week number are configurable, but the script will require customization if that is not the meeting pattern for your group. It also assumes that the time and location information for your meetings does not vary.
 
