@@ -15,27 +15,27 @@ The script will add the meetings. It will avoid creating duplicates, assuming th
 
 To use this:
 
-1. Clone this repository.
+* Clone this repository.
 
 ```
 git clone git@github.com:jbrayton/cocoaheads-repeating-meeting.git
 ```
 
-2. Navigate into the directory.
+* Navigate into the directory.
 
 ```
 cd cocoaheads-repeating-meeting
 ```
     
-3. Copy "config.yaml.template" to "config.yaml".
+* Copy "config.yaml.template" to "config.yaml".
 
 ```
 cp config.yaml.template config.yaml
 ```
     
-4. Open config.yaml and customize it.
+* Open config.yaml and customize it.
 
-5. Execute the script
+* Execute the script
 
 ```
 ./add_meetings
