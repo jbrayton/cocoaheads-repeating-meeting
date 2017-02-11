@@ -1,12 +1,17 @@
 GEM
+  remote: https://rubygems.org/
   specs:
+    highline (1.7.8)
     httpclient (2.8.3)
+    ice_cube (0.15.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  httpclient
+  highline
+  httpclient (~> 2.8.3)
+  ice_cube (~> 0.15.0)
 
 BUNDLED WITH
    1.13.7
