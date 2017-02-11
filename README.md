@@ -35,6 +35,10 @@ cp config.yaml.template config.yaml
     
 * Open config.yaml and customize it.
 
+```
+vi config.yaml
+```
+
 * Execute the script
 
 ```
