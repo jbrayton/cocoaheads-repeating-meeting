@@ -1,0 +1,33 @@
+# Username for cocoaheads.org. The script will ask for the password via a secure prompt.
+username: myusername
+
+# The month ("January", "February", "March") and year (2017) of the first meeting to add.
+start_date_month: March
+start_date_year: 2017
+
+# The number of meetings to add. I recommend adding only a few months ahead because 
+# cocoaheads.org does not include a way to delete a scheduled meeting. In addition, this 
+# tool does not provide a way to bulk edit existing meetings.
+num_meetings: 3
+
+# The script assumes that the meetings occur monthly on (for example) the second Thursday 
+# of every month. These configurations define the 1-based week number (2 for second) and 
+# the day of week.
+week_number: 2
+day_of_week: Thursday
+
+# Start time and end time in 24-hour HH:MM format ("19:00" for 7:00 PM).
+start_time: "19:00"
+end_time: "21:00"
+
+# Location information. You can determine the coordinates of a location using: 
+# http://www.gps-coordinates.net
+location_string: Enter a string describing the location here.
+latitude: 0.0
+longitude: 0.0
+
+# Meeting details (multiline text)
+meeting_details:  >
+  Enter the meeting details here.
+  
+  You can use multiple lines if necessary.
