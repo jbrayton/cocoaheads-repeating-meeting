@@ -2,11 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     ansi (1.5.0)
-    ast (2.3.0)
-    highline (1.7.8)
+    ast (2.4.2)
+    highline (2.1.0)
     httpclient (2.8.3)
     ice_cube (0.15.0)
-    oga (2.9)
+    oga (2.15)
       ast
       ruby-ll (~> 2.1)
     ruby-ll (2.1.2)
