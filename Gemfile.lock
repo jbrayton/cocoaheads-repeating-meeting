@@ -1,20 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    abbrev (0.1.2)
     ansi (1.5.0)
     ast (2.4.2)
-    highline (2.1.0)
+    highline (3.0.0)
+      abbrev
     httpclient (2.8.3)
     ice_cube (0.15.0)
     oga (2.15)
       ast
       ruby-ll (~> 2.1)
-    ruby-ll (2.1.2)
+    ruby-ll (2.1.3)
       ansi
       ast
 
 PLATFORMS
-  ruby
+  x86_64-darwin-22
 
 DEPENDENCIES
   highline
@@ -23,4 +25,4 @@ DEPENDENCIES
   oga (~> 2.9)
 
 BUNDLED WITH
-   1.13.7
+   2.4.20
